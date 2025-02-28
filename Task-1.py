@@ -95,7 +95,6 @@ avg_scores = Dataset.groupby("sex")["G3"].mean().reset_index()
 
 # Create the bar chart with hue to avoid warning
 sns.barplot(x="sex", y="G3", hue="sex", data=avg_scores, palette=["skyblue", "lightcoral"], legend=False)
-
 plt.xlabel("Gender")
 plt.ylabel("Average Final Grade (G3)")
 plt.title("Average Final Grades by Gender")
