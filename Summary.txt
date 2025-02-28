@@ -1,38 +1,44 @@
 Data analysis with Python - Students performance analysis :
-➡️Student performance analysis is essential for understanding the factors 
-that influence academic success. Happy to share my project, where I 
-analyzed students dataset, focused on final grades (G3) and their relationships
- with various factors such as study time and gender. The goal is to derive 
- insights that can help improve student outcomes. 
+    
+    ➡️Student performance analysis is essential for understanding the factors that 
+influence academic success. Happy to share my project, where I analyzed students dataset,
+focused on final grades (G3) and their relationships with various factors such as study 
+time and gender. The goal is to derive insights that can help improve student outcomes. 
+
 📌Data Cleaning :
-➡️Ensured the dataset is accurate, consistent, and ready for analysis. It 
-helps improve the reliability of insights derived from the data.
+    ➡️Ensured the dataset is accurate, consistent, and ready for analysis. It helps
+improve the reliability of insights derived from the data.
+
 📌Data Preprocessing :
 1) Handled Missing Values :
-➡️Checked for missing values.
-Replaced missing values in numerical columns with their median.
-Alternatively, rows with missing values could be dropped.
+    ➡️Checked for missing values.
+    Replaced missing values in numerical columns with their median.
+    Alternatively, rows with missing values could be dropped.
 2) Removing Duplicates :
-➡️Identified and removed duplicate entries present in the dataset
+    ➡️Identified and removed duplicate entries present in the dataset
+
 📌Data Analysis and Visualization :
 1) Average Final Grade (G3) :
-➡️The mean final grade among students was calculated.
+    ➡️The mean final grade among students was calculated.
 2) Number of Students Scoring Above 15 :
-➡️Counted students with G3 > 15.
+    ➡️Counted students with G3 > 15.
 3) Correlation Between Study Time and Final Grade
-➡️Computed correlation and include correlation value, positive/negative,
- and strength of correlation.
-Observation: A scatter plot was created to visualize the relationship.
+    ➡️Computed correlation and include correlation value, positive/negative,
+    and strength of correlation.
+    Observation: A scatter plot was created to visualize the relationship.
 4) Gender-Based Performance Analysis :
-➡️Compared average G3 between male and female students.
-Observation: A bar chart was created to compare gender-wise performance.
+    ➡️Compared average G3 between male and female students.
+    Observation: A bar chart was created to compare gender-wise performance.
+
 📌Visualizations :
 1) Histogram of Final Grades (G3) :
-➡️A histogram was plotted to analyze the distribution of final grades.
+    ➡️A histogram was plotted to analyze the distribution of final grades.
 2) Scatter Plot: Study Time vs. Final Grade :
-➡️A scatter plot was used to identify any trends between study time and
- final grades.
+    ➡️A scatter plot was used to identify any trends between study time and
+    final grades.
 3) Bar Chart: Average Final Grade by Gender :
-➡️A bar chart was plotted to compare the average final grade among male 
-and female students.
+    ➡️A bar chart was plotted to compare the average final grade among male 
+    and female students.
+
 📌Tools used : Pandas, Matplotlib, Seaborn. 
+
